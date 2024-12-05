@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        body{font-family: Arial, Helvetica, sans-serif; background-color: rgba(4, 49, 100, 0.705);}
+        .login-form{width: 300px; margin: 50px auto; padding: 20px; background-color: transparent; border: 1px solid #ddd; 
+            border-radius:10px; box-shadow: 0 0 10px rgba(red, green, blue, alpha);}
+        .login-form img{display:block; margin: 0 auto; width: 100px; height: 100px; border-radius: 50%;}
+        .login-form label{display: block; margin-bottom: 10px;}
+        .login-form input[type="text"], .login-form input[type="password"]{width: 90%; height: 40px; margin-bottom: 20px;
+        padding: 10px; border: 1px solid #ccc;}
+        .login-form input[type="submit"]{width: 100%; height: 40px; background-color: #4caf50; color: #fff; padding: 10px;
+        border: none; border-radius: 5px; cursor: pointer;}
+        .login-form input[type="submit"]:hover
+        {background-color: #3e8e41;}
+    </style>
+</head>
+<body>
+    <div class="login-form"> 
+        <img src="C:\Users\esthe\white-blue-cyber-security-kids-logo-png-white-background_300932-17505.avif" alt="Logo">
+        <form action="login.php" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username"><br><br>
+            <label for="password"> Password:</label>
+            <input type="password" id="password" name="password"><br><br>
+            <input type="submit" value="Login">
+        </form>
+    </div>
+</body>
+</html>
